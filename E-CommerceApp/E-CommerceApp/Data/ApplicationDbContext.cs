@@ -73,7 +73,7 @@ namespace E_CommerceApp.Data
 
          public DbSet<Customer> Customers { get; set; }
 
-        public DbSet<Template> OrderInvoiceTemplates { get; set; }
+        public DbSet<Template> Templates { get; set; }
 
         public DbSet<Order> Orders { get; set; }
 
